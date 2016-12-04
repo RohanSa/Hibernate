@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="C:/ehcache" />
+
+	<defaultCache eternal="false" timeToIdleSeconds="120"
+		timeToLiveSeconds="120" diskSpoolBufferSizeMB="30"
+		 diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" statistics="true">
+		
+	</defaultCache>
+
+	<cache name="com.cache.second.Hemployee" eternal="true" />
+	<!-- timeToIdleSeconds="300" timeToLiveSeconds="600" -->
+
+
+</ehcache>	
